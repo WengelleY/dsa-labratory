@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-    const float tax_const (0.15);
-    cout << "this program is designed to  analyze product sales and inventory for a store" << "\n";
+    const float tax_const = 0.15;
+    cout << "this program is designed to  analyze product sales and inventory for a store";
     cout << "this is reminder that c++ is a compiled language" << "\n";
 
 
@@ -87,7 +87,7 @@ switch (pro_cat){
 
 
 
-    cout << "your reciept" << "\n";
+
     for(int i=1;i<=item_sold;i++){
          cout<< "item : " << i <<"\t" << pro_pri << "birr" <<  "\n";
     }
